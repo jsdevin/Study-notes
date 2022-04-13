@@ -8,3 +8,6 @@
 [2022.4.10](2022每日计划/4.10-事件循环-进程-线程-宏任务-微任务.md)  &ensp; 事件循环 - 进程 - 线程 - 宏任务 - 微任务  
 [2022.4.11](2022每日计划/4.11-JS%20模块化之ES%20Moudle%20-%20包管理工具npm.md) &ensp; JS 模块化之ES Moudle - 包管理工具npm、yarn、cnpm、npx  
 [2022.4.12](2022每日计划/4.12-JSON-Storage-IndexedDB.md) &ensp; JSON - Storage - IndexedDB  
+[2022.4.13](2022每日计划/4.13-DOM、BOM.md) DOM、 BOM、 结束JS高级  
+[点击这里跳转学习 js高级 的全部内容](./总计划-已学知识/JS高级/js高级导航页.md)  
+[2022.4.14] 待定
