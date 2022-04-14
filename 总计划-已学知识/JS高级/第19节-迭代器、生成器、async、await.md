@@ -1,17 +1,4 @@
-# 【算法题】 - 每日 3 道
-1. [剑指Offer 05.替换空格](https://github.com/jsdevin/leetcode-master/blob/master/problems/%E5%89%91%E6%8C%87Offer05.%E6%9B%BF%E6%8D%A2%E7%A9%BA%E6%A0%BC.md)
-**复盘**： 这道题是要求把一个字符串 s 中的每个空格替换成"%20"。要想尽可能低的消耗内存，最好就是不要再去创建新的字符串或者数组，直接在原字符串上操作即可。  
-因为是将一个空格替换成%20，也就是说每替换一个空格，就要新增两个位置，所以是要扩容的。要扩大的部分和空格数有关，扩大的位置数 = 空格数 * 2.  然后使用双指针来操作替换即可。  
-这里最好是从后往前替换的。因为空白位置是扩容到最后的，从后面往前遍历元素来判断是否发生替换的时候，对前面的元素不影响，不会改变还没遍历到的元素。如果是从前往后遍历，对还没遍历到的元素是有影响的。
-
-2. [151.翻转字符串里的单词](https://github.com/jsdevin/leetcode-master)
-**复盘**： 这道题的要求是给定一个字符串，逐个翻转字符串中的每个单词。以一整个单词为单位，进行翻转，而且要求整个字符串首尾不能有空格，单词之间只允许保留一个空格，不能含有多个空格。这道题的思路是要先删除字符串中多余的空格，然后将整个字符串翻转，最后将每一个单词翻转。这样子就实现了翻转字符串中的单词。
-
-3. [剑指Offer58-II.左旋转字符串](https://github.com/jsdevin/leetcode-master/blob/master/problems/%E5%89%91%E6%8C%87Offer58-II.%E5%B7%A6%E6%97%8B%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2.md)
-字符串的左旋转操作是把字符串前面的若干个字符转移到字符串的尾部。比如，输入字符串"abcdefg"和数字2，该函数将返回左旋转两位得到的结果"cdefgab"。这道题的要求是实现左旋转操作  
-**复盘**： 这道题和上面的151.**翻转字符串里的单词**关系很大，我们要用到上面的思路，要自己写一个翻转数组的函数。实现左旋转操作，我们只需要先反转区间为前n的子串，然后反转区间为n到末尾的子串，最后反转整个字符串即可。
-
-# 【深入JS】 - 迭代器、生成器、async、await
+# 迭代器、生成器、async、await
 
 # 迭代器
 
@@ -200,7 +187,7 @@ console.log(generator.next())
 5. 如果 await 后面的表达式，返回的Promise是reject的状态，那么会将这个reject结果直接作为函数的Promise的reject值
 
 # 参考文章
-[MDN 的 async](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Statements/async_function)
-[MDN 的 await](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/await)
-coderwhy 深入JS高级
-JavaScript 高级程序设计第 4 版 第 7 章
+[MDN 的 async](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Statements/async_function)  
+[MDN 的 await](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/await)  
+coderwhy 深入JS高级  
+JavaScript 高级程序设计第 4 版 第 7 章  

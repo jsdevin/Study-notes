@@ -17,7 +17,7 @@ Proxy是一个内置类，使用Proxy就像是使用数组中的length属性一�
 
 ### Proxy语法
 
-- Proxy的语法如下： const obProxy = new Proxy(target, handler) //target是目标对象(侦听的对象)，handler是处理对象（一般使用空白对象来作为处理对象，所有重写的捕捉器方法都会放在其中）
+- Proxy的语法如下： const obProxy = new Proxy(target, handler) ```//target是目标对象(侦听的对象)，handler是处理对象（一般使用空白对象来作为处理对象，所有重写的捕捉器方法都会放在其中）```
 	```JavaScript
 	const obj = {
 	  name: 'devin',
@@ -101,8 +101,9 @@ console.log('name' in objProxy) // false
 
 
 <div align=center>
-<img src="https://cdn.jsdelivr.net/gh/DevinLin000/imgBed/img/202202121236867.png """ width="60%" height="50%"/>
+<img src="https://cdn.jsdelivr.net/gh/jsdevin/imgBed/img/202202121236867.png """ width="60%" height="50%"/>
 </div>
+
 ### construct和apply
 
 - construct和apply捕获器方法的作用对象是函数。
@@ -179,7 +180,7 @@ Arguments(2) [Array(2), Proxy, callee: ƒ, Symbol(Symbol.iterator): ƒ]
 
 
 <div align=center>
-<img src="https://cdn.jsdelivr.net/gh/DevinLin000/imgBed/img/202202121348517.png """ width="60%" height="50%"/>
+<img src="https://cdn.jsdelivr.net/gh/jsdevin/imgBed/img/202202121348517.png """ width="60%" height="50%"/>
 </div>
 
 
@@ -191,7 +192,7 @@ Arguments(2) [Array(2), Proxy, callee: ƒ, Symbol(Symbol.iterator): ƒ]
 
 
 <div align=center>
-<img src="https://cdn.jsdelivr.net/gh/DevinLin000/imgBed/img/202202121426200.png """ width="60%" height="50%"/>
+<img src="https://cdn.jsdelivr.net/gh/jsdevin/imgBed/img/202202121426200.png """ width="60%" height="50%"/>
 </div>
 ### Reflect的construct
 
@@ -223,7 +224,7 @@ console.log(teacher1) // Teacher {name: 'devin', age: '2222'}
 
 
 <div align=center>
-<img src="https://cdn.jsdelivr.net/gh/DevinLin000/imgBed/img/202202121436950.png """ width="60%" height="50%"/>
+<img src="https://cdn.jsdelivr.net/gh/jsdevin/imgBed/img/202202121436950.png """ width="60%" height="50%"/>
 </div>
 # 响应式
 

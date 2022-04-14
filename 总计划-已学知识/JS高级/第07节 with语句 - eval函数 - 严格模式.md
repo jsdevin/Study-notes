@@ -8,6 +8,7 @@
 <div align=center>
 <img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/20d1511ece77434d8cef1602bef51aad~tplv-k3u1fbpfcp-zoom-1.image""" width="60%" height="50%"/>
 </div>
+
 # eval函数
 
 - **不建议使用，知道这么个东西就行。**
@@ -23,6 +24,7 @@
 <div align=center>
 <img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/89b03f63f6d747f3a1bf1da2982719a6~tplv-k3u1fbpfcp-zoom-1.image"eval是一个特殊的函数，它可以将传入的字符串当做JavaScript代码来运行"" width="60%" height="50%"/>
 </div>
+
 # 严格模式
 
 ## 背景
@@ -30,7 +32,7 @@
 - JavaScript在设计之初，为了方便初学者学习，并不强制要求用var申明变量。这个设计错误带来了严重的后果 : 如果一个变量没有通过var申明就被使用，那么该变量就自动被申明为全局变量 : 
 
 ```JavaScript
-i=10; //i现在是全局变量
+i=10; // i现在是全局变量
 ```
 
 
@@ -60,6 +62,7 @@ i=10; //i现在是全局变量
 <div align=center>
 <img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/dc00bf382719463ca18715ceb19fa953~tplv-k3u1fbpfcp-zoom-1.image""" width="60%" height="50%"/>
 </div>
+
 #### 在某个函数中开启
 
 - 在函数最上方输入 'use strict'
@@ -68,6 +71,7 @@ i=10; //i现在是全局变量
 <div align=center>
 <img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/97bee6fbd35143f0a705c50bb38da165~tplv-k3u1fbpfcp-zoom-1.image""" width="60%" height="50%"/>
 </div>
+
 ## 严格模式的限制
 
 1. 无法意外的创建全局变量

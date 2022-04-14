@@ -44,7 +44,7 @@
 	- 5）**[ ...arguments ]**  解构方法！最好用的是这个，建议直接使用这个
 
 <div align=center>
-<img src="https://cdn.jsdelivr.net/gh/DevinLin000/imgBed/img/20220112174938.png """ width="60%" height="50%"/>
+<img src="https://cdn.jsdelivr.net/gh/jsdevin/imgBed/img/20220112174938.png """ width="60%" height="50%"/>
 </div>
 
 # 纯函数
@@ -68,16 +68,17 @@
 #### 例子一
 
 <div align=center>
-<img src="https://cdn.jsdelivr.net/gh/DevinLin000/imgBed/img/20220112213417.png """ width="60%" height="50%"/>
-
+<img src="https://cdn.jsdelivr.net/gh/jsdevin/imgBed/img/20220112213417.png """ width="60%" height="50%"/>
 </div>
+
 - slice是纯函数，因为它不会对原函数造成造成影响；而splice不是纯函数，因为它对原数组进行了修改，当下一次输入同样的输入时，不能产生同样的输出。
 
 #### 其它例子
 
 <div align=center>
-<img src="https://cdn.jsdelivr.net/gh/DevinLin000/imgBed/img/20220112214338.png """ width="60%" height="50%"/>
+<img src="https://cdn.jsdelivr.net/gh/jsdevin/imgBed/img/20220112214338.png """ width="60%" height="50%"/>
 </div>
+
 sum是纯函数；add不是纯函数，因为中途foo被改变了，那么同样的输入就得不到同样的输出。printInfo是纯函数。
 
 ## 为什么使用纯函数？
