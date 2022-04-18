@@ -1,10 +1,3 @@
----
-title: JS基础 扫盲版
-date: 2021-09-26 15:25:15
-categories: 前端三件套
-tags: HTML+CSS+JavaScript
----
-
 # JS基础语法
 
 ##### 强制类型转换
