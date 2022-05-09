@@ -14,30 +14,30 @@ type: '数据结构与算法'
 
 线性结构是最简单的数据结构，包括数组、链表，以及由它们衍生的栈、队列、哈希表
 
-### [数组](/Study-notes/06-数据结构和算法/数据结构/数组.md)
+### [数组](https://github.com/jsdevin/Study-notes/blob/main/06-%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E6%95%B0%E7%BB%84.md)
 
-### [链表](https://devinlin000.github.io/2022/01/07/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/%E9%93%BE%E8%A1%A8/)
+### [链表](https://github.com/jsdevin/Study-notes/blob/main/06-%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E9%93%BE%E8%A1%A8.md)
 
 ### 衍生物
 
-#### [栈](https://devinlin000.github.io/2022/01/07/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/%E6%A0%88/)
+#### [栈](https://github.com/jsdevin/Study-notes/blob/main/06-%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E6%A0%88.md)
 
-#### [队列](https://devinlin000.github.io/2022/01/07/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/%E9%98%9F%E5%88%97/)
+#### [队列](https://github.com/jsdevin/Study-notes/blob/main/06-%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E9%98%9F%E5%88%97.md)
 
-#### 哈希表[ 理论](https://devinlin000.github.io/2022/01/07/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/%E5%93%88%E5%B8%8C%E8%A1%A8%E7%90%86%E8%AE%BA/) && [代码实现](https://devinlin000.github.io/2022/01/07/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/%E5%93%88%E5%B8%8C%E8%A1%A8%E7%9A%84%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0/)
+#### 哈希表[ 理论](https://github.com/jsdevin/Study-notes/blob/main/06-%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E5%93%88%E5%B8%8C%E8%A1%A8%E7%90%86%E8%AE%BA.md) && [代码实现](https://github.com/jsdevin/Study-notes/blob/main/06-%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E5%93%88%E5%B8%8C%E8%A1%A8%E7%9A%84%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0.md)
 
-## [树](https://devinlin000.github.io/2022/01/09/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/%E6%A0%91/)
+## [树](https://github.com/jsdevin/Study-notes/blob/main/06-%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E6%A0%91.md)
 
 树是相对复杂的数据结构，其中比较有代表性的是二叉树，以及由它衍生出来的二叉堆之类的数据结构
 
-### [二叉树](https://devinlin000.github.io/2022/01/09/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/%E4%BA%8C%E5%8F%89%E6%A0%91/)
+### [二叉树](https://github.com/jsdevin/Study-notes/blob/main/06-%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E4%BA%8C%E5%8F%89%E6%A0%91.md)
 
-### [二叉搜索树](https://devinlin000.github.io/2022/01/09/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91/)
+### [二叉搜索树](https://github.com/jsdevin/Study-notes/blob/main/06-%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91.md)
 
-### [红黑树](https://devinlin000.github.io/2022/01/09/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/%E7%BA%A2%E9%BB%91%E6%A0%91/)
+### [红黑树](https://github.com/jsdevin/Study-notes/blob/main/06-%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E7%BA%A2%E9%BB%91%E6%A0%91.md)
 
 
-## [图](https://devinlin000.github.io/2022/01/09/%E5%9B%BE/)
+## [图](https://github.com/jsdevin/Study-notes/blob/main/06-%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E5%9B%BE.md)
 
 图是更为复杂的数据结构，因为在图中会呈现出多对多的关联关系
 
@@ -45,9 +45,9 @@ type: '数据结构与算法'
 
 除了上述所列的几种基本数据结构之外，还有很多千奇百怪的数据 结构。它们是由基本数据结构变形而来的，用于解决某些特定的问题。比如跳表、哈希链表、位图等
 
-### [集合](https://devinlin000.github.io/2022/01/09/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/%E9%9B%86%E5%90%88/)
+### [集合](https://github.com/jsdevin/Study-notes/blob/main/06-%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E9%9B%86%E5%90%88.md)
 
-### [字典](https://devinlin000.github.io/2022/01/09/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/%E5%AD%97%E5%85%B8/)
+### [字典](https://github.com/jsdevin/Study-notes/blob/main/06-%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E5%AD%97%E5%85%B8.md)
 
 
 
