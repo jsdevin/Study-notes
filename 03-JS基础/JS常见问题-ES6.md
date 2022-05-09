@@ -1,13 +1,4 @@
----
-title: JS高级(ES6+)
-date: 2021-09-26 17:17:24
-categories: 前端三件套
-tags: HTML+CSS+JavaScript
----
-
-# JS进阶知识(ES6+)
-
-##### 数据类型
+### 数据类型
 * 知识点
  ![](https://api2.mubu.com/v3/document_image/1620638167770b5e2.jpg)
 * **第一问常出现在面试题中**
@@ -18,7 +9,7 @@ tags: HTML+CSS+JavaScript
   * var a = null；
   * console.log(a); //null
 
-##### 数据、变量、内存
+### 数据、变量、内存
 * 知识点一
  ![](https://api2.mubu.com/v3/document_image/16206408602485840.jpg)
  ![](https://api2.mubu.com/v3/document_image/16206408683441075.jpg)
@@ -39,14 +30,14 @@ tags: HTML+CSS+JavaScript
 * 知识点三
  ![](https://api2.mubu.com/v3/document_image/162070484850219a0.jpg)
 
-##### 对象
+### 对象
 * 知识点
  ![](https://api2.mubu.com/v3/document_image/16207055905410fa0.jpg)
  ![](https://api2.mubu.com/v3/document_image/16207056043415d49.jpg)
 * 一些注意点
  ![](https://api2.mubu.com/v3/document_image/1620705919216d60d.jpg)
 
-##### 函数
+### 函数
 * 知识点一 *函数介绍*
  ![](https://api2.mubu.com/v3/document_image/1620715012562e494.jpg)
 * 知识点二 *回调函数*
@@ -58,7 +49,7 @@ tags: HTML+CSS+JavaScript
 * 知识点四 *this*
  ![](https://api2.mubu.com/v3/document_image/16207221302098d75.jpg)
 
-##### 原型对象_原型链_面试题
+### 原型对象_原型链_面试题
 * 原型对象
   * 在HBuild中弄过来，之前学的很详细。
 * 显式原型和隐式原型
@@ -72,7 +63,7 @@ tags: HTML+CSS+JavaScript
    ![](https://api2.mubu.com/v3/document_image/1620884604938758c.jpg)
   * 通过实例调用原型例题中，找test()方法，先在实例对象中找，找不到再去实例对象的隐式原型中找。
 
-##### 原型链
+### 原型链
 * 原型链是什么：我们把__proto__ 与prototype 的链条关系称为“原型链”
  ![](https://api2.mubu.com/v3/document_image/1620915067284ca71.jpg)
 * [原型链的详细介绍](https://zhuanlan.zhihu.com/p/35790971)
@@ -103,7 +94,7 @@ tags: HTML+CSS+JavaScript
   * 题中的F.a()相当于上图中的Foo.a()
   * 反向的箭头不能通过；有null优先执行输出null。
 
-##### 执行上下文和执行上下文栈
+### 执行上下文和执行上下文栈
 * 变量提升
  ![](https://api2.mubu.com/v3/document_image/162130093536137fa.jpg)
 * 变量声明提升
@@ -131,7 +122,7 @@ tags: HTML+CSS+JavaScript
  ![](https://api2.mubu.com/v3/document_image/16213095003838ac5.jpg)
   * c = 1 使得 c 最后不是函数，不能调用c(2)，上面用function创建c等于白忙活，无用，所以报错了
 
-##### 分号的生存
+### 分号的生存
   * 什么情况可以不加，什么情况必须加
    ![](https://api2.mubu.com/v3/document_image/16207228357270f2a.jpg)
   * 括号开头的前一句要加分号，其它不用加。举例：立即执行函数的前一句要加分号。
