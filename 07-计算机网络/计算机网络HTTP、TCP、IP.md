@@ -1,13 +1,13 @@
 # 第一章、基础篇
 ## TCP/IP的五层网络模型
-![五层网络模型](01-五层网络模型(TCP-IP)/5层网络模型.png)
+![五层网络模型](https://cdn.jsdelivr.net/gh/jsdevin/imgBed/img/202205142140282.png)
 
 # 第二章、HTTP 篇
 ## 2.1 HTTP常见的面试题  
-![HTTP面试题](02-HTTP篇/2.1%20HTTP常见面试题.png)  
+![HTTP面试题](https://cdn.jsdelivr.net/gh/jsdevin/imgBed/img/202205142141973.png)
 
 ## 2.2 优化HTTP/1.1的三种方法
-![优化HTTP/1.1的三种方法](02-HTTP篇/2.2%20优化HTTP1.1的三种办法.png)
+![优化HTTP/1.1的三种方法](https://cdn.jsdelivr.net/gh/jsdevin/imgBed/img/202205142141818.png)
 
 ## 2.3 HTTPS TLS握手解析
 ### 背景
@@ -30,9 +30,6 @@
 2. **RSA 密钥交换算法**是最简单的密钥交换方法。
   **它的原理是**：在服务端获得TLS证书时（TLS证书会包含一个公钥和一个私钥），服务端会在TLS握手阶段将公钥交给客户端，自己保留着私钥。客户端收到公钥后，自己也会生出随机密钥（为了方便理解，我这里将这个随机密钥命名为随机密钥A），并使用服务端的公钥进行加密，然后传给服务端，服务端使用自己的私钥解密，就获得了客户端生成的随机密钥A。这下子，服务端和客户端都有相同的密钥A，就能使用对称加密方法加密数据了。（感觉这个RSA存在很多安全问题）
   以 RSA 为例，分析TLS握手过程：
-
-  <!-- ![](https://cdn.xiaolincoding.com/gh/xiaolincoder/ImageHost4@main/%E7%BD%91%E7%BB%9C/https/https_rsa.png) -->
-
 #### TLS 第一次握手Client Hello（客户端 -> 服务端）
 - 发送的消息news1 = 客户端支持的TLS版本(version) + 随机数Client Random + 密码套件(Cipher Suites)
 
@@ -61,6 +58,9 @@
 - 最后，就是用「会话密钥」来加解密 HTTP 请求和响应了。  
 
 到此就实现了TLS握手的全过程。效果是客户端和服务端之间都得到了一个绘画密钥master secret用来加密通信的内容，使得HTTP的通信由原来的明文通信变成密文通信。一定程度上减小了窃听、篡改、冒充风险。
+
+### TLS握手全过程
+![TLS握手全过程](https://cdn.xiaolincoding.com/gh/xiaolincoder/ImageHost4@main/%E7%BD%91%E7%BB%9C/https/https_rsa.png)
 
 ### TLS握手之 RSA 算法的缺陷
 - 使用 RSA 密钥协商算法的最大问题是不支持前向保密。
