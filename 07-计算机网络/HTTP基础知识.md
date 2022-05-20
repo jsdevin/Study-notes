@@ -156,4 +156,4 @@ UDP 发⽣是不管顺序，也不管丢包的，所以不会出现 HTTP/1.1 的
 ![](https://cdn.jsdelivr.net/gh/jsdevin/imgBed/img/202205210138911.png)  
 
 所以， QUIC 是⼀个在 UDP 之上的伪 TCP + TLS + HTTP/2 的多路复⽤的协议。  
-QUIC 是新协议，对于很多⽹络设备，根本不知道什么是 QUIC，只会当做 UDP，这样会出现新的问题。所以HTTP/3 现在普及的进度⾮常的缓慢，不知道未来 UDP 是否能够逆袭 TCP。  
+QUIC 是新协议，对于很多⽹络设备，根本不知道什么是 QUIC，只会当做 UDP，这样会出现新的问题。所以HTTP/3 现在普及的进度⾮常的缓慢，不知道未来 UDP 是否能够逆袭 TCP。
