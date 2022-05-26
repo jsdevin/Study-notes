@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>请设置您的倒计时</title>
+  <link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="timer">
+    <div class="timer__controls">
+      <button data-time="60" class="timer__button">1分钟</button>
+      <button data-time="600" class="timer__button">10分钟</button>
+      <button data-time="1500" class="timer__button">25分钟</button>
+      <button data-time="2100" class="timer__button">35分钟</button>
+      <button data-time="3600" class="timer__button">60分钟</button>
+      <form name="customForm" id="custom">
+        <input type="text" name="minutes" placeholder="点这里输入想要的倒计时">
+      </form>
+    </div>
+    <h1 style="color: white;">请在上方选择或输入您想要进行的倒计时</h1>
+    <div class="display">
+      <h1 class="display__time-left"></h1>
+      <p class="display__end-time"></p>
+    </div>
+  </div>
+
+  <script src="scripts-START.js"></script>
+</body>
+</html>
