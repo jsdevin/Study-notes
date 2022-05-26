@@ -2,12 +2,14 @@
 const timeDisplay = document.querySelector('.display__time-left')
 const endTimeDisplay = document.querySelector('.display__end-time')
 const buttons = document.querySelectorAll('[data-time]')
+// const plusButton = document.getElementById('plusButton')
+
 
 // 设置倒计时的函数
 let countdown;
 function timer(seconds) { // 传入的参数将会是多少多少秒，seconds 代表的是需要倒计时的时间段，比如说40分钟
 
-// 错误逻辑：这样子设置的话，setInterval 函数里面的所有量都是定值，无法完成倒计时的要求。
+// 错误的逻辑：这样子设置的话，setInterval 函数里面的所有量都是定值，无法完成倒计时的要求。
   // countdown = setInterval(() => {
   //   const secondsLeft = Math.round(seconds)
   //   if(secondsLeft < 0) {
@@ -17,8 +19,10 @@ function timer(seconds) { // 传入的参数将会是多少多少秒，seconds �
   //   console.log(secondsLeft)
 
   // }, 1000) // 每隔一秒调用一次 setInterval 函数
-  
+  clearInterval(countdown2)
   clearInterval(countdown) // 多个倒计时运行时触发，会清除前一个倒计时，只保留当前的
+  clearInterval(countdown3) 
+  
   showAllTime(seconds)
 
   const now = Date.now() // 记录的是此刻的时间，单位是毫秒，表现形式是一串数字
@@ -65,7 +69,7 @@ function showEndTime(endTime) { // 传入的是完成倒计时的时间戳
   const minutes = Time.getMinutes()
   
   // 设置展示形式
-  const display = `在${hours}:${minutes < 0 ? 0 : ''}${minutes}完成倒计时`
+  const display = `将在${hours}:${minutes < 10 ? 0 : ''}${minutes}完成倒计时`
   endTimeDisplay.textContent = display
 
 }
@@ -89,3 +93,53 @@ document.customForm.addEventListener('submit', function(e) {
   timer(minutes * 60) // 参数的单位需要时秒
 })
 
+
+// 扩展1: 实现正计时
+// 正计时函数
+let countdown2;
+function plusTime() {
+  clearInterval(countdown)
+  clearInterval(countdown2)
+  clearInterval(countdown3)
+  let nowTime = Date.now() // 当前时间的时间戳（单位时ms）
+
+  countdown2 = setInterval(() => { // 核心逻辑
+    // 一秒后的时间戳
+    let oneTime = Date.now()
+    let timeAfter = oneTime - nowTime // 差值，就是要显示的正计时
+
+    let standTime = new Date(timeAfter)
+    showPlusTime(standTime) // 设置一个函数来显示结果
+  }, 1000) // 1s
+}
+function showPlusTime(standardTime) {
+  const minutes = standardTime.getMinutes()
+  const seconds = standardTime.getSeconds()
+  const display = `${minutes}:${seconds < 10 ? 0 : ''}${seconds}`
+
+  document.title = display // 显示到标签上
+  timeDisplay.textContent = display // 显示到网页中间
+  endTimeDisplay.textContent = `正计时`
+}
+
+document.getElementById('plusButton').addEventListener('click', plusTime)
+
+// 扩展2: 默认显示当前时间
+let countdown3;
+function defaultTime() {
+  
+  countdown3 = setInterval(() => {
+    let now = Date.now()
+    const showNow = new Date(now)
+    let hours = showNow.getHours()
+    let minutes = showNow.getMinutes()
+    let seconds = showNow.getSeconds()
+    const display = `${hours}:${minutes < 10 ? 0 : ''}${minutes}:${seconds < 10 ? 0 : ''}${seconds}`
+    document.title = display // 显示到标签上
+
+    timeDisplay.textContent = display // 显示到网页中间
+    endTimeDisplay.textContent = `当前时间`
+  }, 1000)
+
+}
+defaultTime()
