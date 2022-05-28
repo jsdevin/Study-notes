@@ -1,5 +1,10 @@
 html {
-  box-sizing: border-box;
+  /* box-sizing 
+  属性有两个值,分别是content-box 和 border-box. 
+    默认值是 content-box . 那么意味着我们设置宽高的时侯是内容区的宽高,不包括边框.比如width: 100px, border: 1px, 盒子总宽度 = 100+1
+    如果手动设置为border-box, 那么我们设置宽高的时候是整个盒子的宽高,是包括边框的.比如我们设置width: 100px, border: 1px.那么盒子的总宽度 = 100px(等于写死了) = 内容区99px(100-1) + 边框1px
+  */
+  box-sizing: border-box; 
   font-size: 10px;
   background: #8E24AA;
   background: linear-gradient(45deg,  #42a5f5 0%,#478ed1 50%,#0d47a1 100%);
@@ -24,9 +29,10 @@ body {
 }
 
 .timer {
-  display: flex;
+  /* 开启flex布局 */
+  display: flex; 
   min-height: 100vh;
-  flex-direction: column;
+  flex-direction: column; 
 }
 
 .timer__controls {

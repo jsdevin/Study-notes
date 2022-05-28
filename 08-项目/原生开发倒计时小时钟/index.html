@@ -8,6 +8,7 @@
 </head>
 <body>
   <div class="timer">
+    <!-- 控制区域 -->
     <div class="timer__controls">
       <button id="plusButton" class="timer__button">开始正计时</button>
       <button data-time="600" class="timer__button">倒计时10分钟</button>
@@ -16,15 +17,16 @@
       <button data-time="3600" class="timer__button">倒计时60分钟</button>
       <form name="customForm" id="custom">
         <input type="text" name="minutes" placeholder="点这里自定义倒计时">
-        <!-- <button>倒计时</button> -->
       </form>
-      <!-- <button id="">正计时</button> -->
     </div>
+    
+    <!-- 展示区域 -->
     <h1 style="color: white;">请在上方选择或输入您想要进行的操作</h1>
     <div class="display">
       <h1 class="display__time-left"></h1>
       <p class="display__end-time"></p>
     </div>
+
   </div>
 
   <script src="scripts-START.js"></script>
