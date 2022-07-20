@@ -99,10 +99,8 @@ console.log('name' in objProxy) // false
 
 ### 其它方法
 
+![](https://cdn.jsdelivr.net/gh/jsdevin/imgBed/img/202202121236867.png)
 
-<div align=center>
-<img src="https://cdn.jsdelivr.net/gh/jsdevin/imgBed/img/202202121236867.png """ width="60%" height="50%"/>
-</div>
 
 ### construct和apply
 
@@ -179,9 +177,7 @@ Arguments(2) [Array(2), Proxy, callee: ƒ, Symbol(Symbol.iterator): ƒ]
 - 将对原对象的操作，都修改为Reflect方法来操作就行了。
 
 
-<div align=center>
-<img src="https://cdn.jsdelivr.net/gh/jsdevin/imgBed/img/202202121348517.png """ width="60%" height="50%"/>
-</div>
+![](https://cdn.jsdelivr.net/gh/jsdevin/imgBed/img/202202121348517.png)
 
 
 ### Receiver的作用
@@ -190,10 +186,8 @@ Arguments(2) [Array(2), Proxy, callee: ƒ, Symbol(Symbol.iterator): ƒ]
 	- 如果我们的源对象（obj）有setter、getter的访问器属性，那么可以通过receiver来改变里面的this
 - 我们来看这样的一个对象：这里的**receiver == objProxy**
 
+![](https://cdn.jsdelivr.net/gh/jsdevin/imgBed/img/202202121426200.png)
 
-<div align=center>
-<img src="https://cdn.jsdelivr.net/gh/jsdevin/imgBed/img/202202121426200.png """ width="60%" height="50%"/>
-</div>
 ### Reflect的construct
 
 - 作用：执行的是A函数的逻辑，单创建出来的对象确实B类型的。
@@ -222,10 +216,8 @@ console.log(teacher1) // Teacher {name: 'devin', age: '2222'}
 
 ### Reflect常见的方法
 
+![](https://cdn.jsdelivr.net/gh/jsdevin/imgBed/img/202202121436950.png)
 
-<div align=center>
-<img src="https://cdn.jsdelivr.net/gh/jsdevin/imgBed/img/202202121436950.png """ width="60%" height="50%"/>
-</div>
 # 响应式
 
 ## 先跳过这个，有点混乱，学完JS高级再回来学习这个。ppt第17节，视频也是第17节
