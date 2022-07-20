@@ -218,7 +218,4 @@ console.log(teacher1) // Teacher {name: 'devin', age: '2222'}
 
 ![](https://cdn.jsdelivr.net/gh/jsdevin/imgBed/img/202202121436950.png)
 
-# 响应式
-
-## 先跳过这个，有点混乱，学完JS高级再回来学习这个。ppt第17节，视频也是第17节
 
